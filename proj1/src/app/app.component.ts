@@ -13,7 +13,7 @@ export class AppComponent {
 
   constructor(){
     this.userInst = new User();
-    this.userInst.name="Foo";
+    this.userInst.name="My Name";
     this.userInst.designation="Engineer";
     this.userInst.address="1000, street, city, state";
     this.userInst.phone= [
